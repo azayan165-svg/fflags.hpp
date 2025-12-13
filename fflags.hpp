@@ -1,11 +1,7 @@
-// Roblox Version: unknown
-// Dumped at: 13 Dec 2025 22:13
-// Total FFlags: 12048
-
 #pragma once
 
-namespace fflags {
-
+namespace fflags 
+{
     uintptr_t ACSReturnPromiseException = 0x6798878;
     uintptr_t ADS4948SendUniverseIdToEventStream = 0x67BE940;
     uintptr_t AECRingBufferSizeTenthsMs = 0x676F6B0;
