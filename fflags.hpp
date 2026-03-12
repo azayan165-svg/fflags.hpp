@@ -1,6 +1,6 @@
-// Dumped by Ryzen
-// Dumped at: 2026-03-11 20:14:48
-// Total FFlags: 25,025
+// FFlags dumped
+// Dumped at: 2026-03-12 19:41:40
+// Total FFlags: 25,063
 
 #pragma once
 
@@ -238,6 +238,7 @@ namespace FFlags
     inline uintptr_t AXDefaultMobileUIToFullShopIXPEnabled = 0x5cc09f0;
     inline uintptr_t AXDeprecateAnalyticsFiltersEnums = 0x5cc09f0;
     inline uintptr_t AXDeprecatePremiumBenefits1 = 0x5cc09f0;
+    inline uintptr_t AXDisableActionButtonOnOwnedItemInCustomize = 0x5cc09f0;
     inline uintptr_t AXDisableAlwaysRenderedScreensIXP2 = 0x5cc09f0;
     inline uintptr_t AXDisableBundleTrade = 0x5cc09f0;
     inline uintptr_t AXDisableCatalogFetchOnDeepLinkForConsole = 0x5cc09f0;
@@ -889,7 +890,7 @@ namespace FFlags
     inline uintptr_t AdGuiPauseButtonImage = 0x6b4f9c0;
     inline uintptr_t AdGuiPlayButtonImage = 0x6b4f990;
     inline uintptr_t AdGuiRandomizedRaycastLaunchPercentage2 = 0x7845730;
-    inline uintptr_t AdGuiRotationIntervalMS = 0x55e2e20;
+    inline uintptr_t AdGuiRotationIntervalMS = 0x5cc09f0;
     inline uintptr_t AdGuiVideoInteractivityControlTransparencyThousandths = 0x6b194fc;
     inline uintptr_t AdIdentifiedTelemetryThrottleHundredthsPercent = 0x5cc09f0;
     inline uintptr_t AdOpportunityEventThrottleHundrethsPercent = 0x784570c;
@@ -1043,6 +1044,7 @@ namespace FFlags
     inline uintptr_t AddKtxTranscodedWidthHeight2 = 0x5cc09f0;
     inline uintptr_t AddKtxTranscoderVersion = 0x5cc09f0;
     inline uintptr_t AddL2SessionTagAssetReadLogger = 0x79860c8;
+    inline uintptr_t AddLayoutOrderToSduiSectionHeaderIconComponent = 0x5cc09f0;
     inline uintptr_t AddLearnTile1 = 0x5cc09f0;
     inline uintptr_t AddLinkedAuthEndpoints2 = 0x5cc09f0;
     inline uintptr_t AddMachineIDInstallerTelemetry = 0x5cc09f0;
@@ -1382,7 +1384,7 @@ namespace FFlags
     inline uintptr_t AndroidCameraCaptureUseTemplatePreview = 0x5cc09f0;
     inline uintptr_t AndroidCheckTouchScreen = 0x5cc09f0;
     inline uintptr_t AndroidDebugHeapTelemetry = 0x5cc09f0;
-    inline uintptr_t AndroidDeprecationBodyPhase2LocalizationKey = 0x55e2e20;
+    inline uintptr_t AndroidDeprecationBodyPhase2LocalizationKey = 0x5cc09f0;
     inline uintptr_t AndroidDeprecationDate = 0x5cc09f0;
     inline uintptr_t AndroidDeprecationLoggingEventName = 0x5cc09f0;
     inline uintptr_t AndroidDeprecationMinUpgrade = 0x5cc09f0;
@@ -1697,7 +1699,6 @@ namespace FFlags
     inline uintptr_t AppChatGameCardEffectDeps = 0x5cc09f0;
     inline uintptr_t AppChatGroupOsaAnalytics3 = 0x5cc09f0;
     inline uintptr_t AppChatGroupOsaDialogHost = 0x5cc09f0;
-    inline uintptr_t AppChatGroupOsaNavigateBeforeRecordDecline = 0x5cc09f0;
     inline uintptr_t AppChatGroupOsaPreventBlankDialog = 0x5cc09f0;
     inline uintptr_t AppChatGroupOsaPreventDuplicateSubmit = 0x5cc09f0;
     inline uintptr_t AppChatHandleAgeChange = 0x5cc09f0;
@@ -2827,7 +2828,7 @@ namespace FFlags
     inline uintptr_t CAPCodeRunnerDMHierarchyMaxBytes = 0x5cc09f0;
     inline uintptr_t CAPDMHierarchyDefaultDepth = 0x5cc09f0;
     inline uintptr_t CAPDMHierarchyGlobalContainerDepth = 0x5cc09f0;
-    inline uintptr_t CAPDMHierarchySelectedMaxDepth = 0x55e2e20;
+    inline uintptr_t CAPDMHierarchySelectedMaxDepth = 0x5cc09f0;
     inline uintptr_t CAPInstanceTrackerTelemetryPeriodSeconds = 0x5cc09f0;
     inline uintptr_t CAPInstanceTrackerTelemetryWatchTimeMinutes = 0x5cc09f0;
     inline uintptr_t CAPScriptIterationDiffExperiment = 0x5cc09f0;
@@ -3802,6 +3803,7 @@ namespace FFlags
     inline uintptr_t ClusterSenderMaxJoinBandwidthBpsScaling = 0x6b18e3c;
     inline uintptr_t ClusterSenderMaxUpdateBandwidthBps = 0x6b18e30;
     inline uintptr_t ClusterSenderMaxUpdateBandwidthBpsScaling = 0x6b18e34;
+    inline uintptr_t CoHubAnalyticsSetup = 0x5cc09f0;
     inline uintptr_t CoalesceDebouncingReplicatorPropChange = 0x5cc09f0;
     inline uintptr_t CoalescedCreatables = 0x5cc09f0;
     inline uintptr_t CodeAssistTriggerOnCommit = 0x5cc09f0;
@@ -6418,6 +6420,7 @@ namespace FFlags
     inline uintptr_t EnableAdPlacementCheckInRequest = 0x5cc09f0;
     inline uintptr_t EnableAdPlacementId = 0x5cc09f0;
     inline uintptr_t EnableAdRewardAtomic = 0x5cc09f0;
+    inline uintptr_t EnableAddAuthMethodPagePasskeyNudgeDirectionalExperiment10 = 0x5cc09f0;
     inline uintptr_t EnableAddDurationNeededForRewardField = 0x5cc09f0;
     inline uintptr_t EnableAddedCreateUGCBundleErrorCodes = 0x5cc09f0;
     inline uintptr_t EnableAdditionalExportType = 0x5cc09f0;
@@ -6519,6 +6522,7 @@ namespace FFlags
     inline uintptr_t EnableAudioTremolo = 0x5cc09f0;
     inline uintptr_t EnableAuditForSinglePageSignUp4 = 0x5cc09f0;
     inline uintptr_t EnableAuditSystem2 = 0x5cc09f0;
+    inline uintptr_t EnableAuthAnalyticsOriginParam = 0x5cc09f0;
     inline uintptr_t EnableAuthDeepLinkReceiver2 = 0x5cc09f0;
     inline uintptr_t EnableAuthDeepLinkReceiver3 = 0x5cc09f0;
     inline uintptr_t EnableAuthStatefulTextInputUpdatesRelease1 = 0x5cc09f0;
@@ -7014,6 +7018,7 @@ namespace FFlags
     inline uintptr_t EnableHarmonyForGmaAd = 0x5cc09f0;
     inline uintptr_t EnableHarmonyOnFrameRateManager4 = 0x5cc09f0;
     inline uintptr_t EnableHarmonyOnFrameRateManagerShadow2 = 0x5cc09f0;
+    inline uintptr_t EnableHeadShapeForCharacterManager6 = 0x5cc09f0;
     inline uintptr_t EnableHeartbeatSkipEventQueue = 0x5cc09f0;
     inline uintptr_t EnableHideJoinToastSubtitle = 0x5cc09f0;
     inline uintptr_t EnableHidePremiumForVngUsers = 0x5cc09f0;
@@ -7288,7 +7293,7 @@ namespace FFlags
     inline uintptr_t EnableNewServerBandwidthReportingFlow2 = 0x5cc09f0;
     inline uintptr_t EnableNewServerBandwidthReportingFlow3 = 0x78a8640;
     inline uintptr_t EnableNewThumbnailingEnvironmentApi = 0x5cc09f0;
-    inline uintptr_t EnableNewToolboxCreationContextErrors = 0x55e2e20;
+    inline uintptr_t EnableNewToolboxCreationContextErrors = 0x5cc09f0;
     inline uintptr_t EnableNewUpsellPromptRobuxCalculation = 0x5cc09f0;
     inline uintptr_t EnableNewVoiceReportFlows = 0x5cc09f0;
     inline uintptr_t EnableNewWebView2BrowserUpdate = 0x78a0e60;
@@ -7682,6 +7687,7 @@ namespace FFlags
     inline uintptr_t EnableSkipUpdatingGlobalTelemetryInfo5 = 0x5cc09f0;
     inline uintptr_t EnableSlimAvatarsDefaultEnabled = 0x79912c8;
     inline uintptr_t EnableSlimAvatarsThreePhaseRolloutProperty = 0x7991228;
+    inline uintptr_t EnableSlotsHeadShapeThumbnail2 = 0x5cc09f0;
     inline uintptr_t EnableSmoothingGroupVertexAveraging = 0x78e82a8;
     inline uintptr_t EnableSocialCards2 = 0x5cc09f0;
     inline uintptr_t EnableSocialCarouselForAllV4 = 0x5cc09f0;
@@ -7695,6 +7701,7 @@ namespace FFlags
     inline uintptr_t EnableSocialProofOnItemDetails = 0x5cc09f0;
     inline uintptr_t EnableSocialProofOnItemDetailsRoactGamepadNavigation = 0x5cc09f0;
     inline uintptr_t EnableSocialProofUserList4 = 0x5cc09f0;
+    inline uintptr_t EnableSocialProofVerticalUserListSheet = 0x5cc09f0;
     inline uintptr_t EnableSocialProofVerticalUserListSheet2 = 0x5cc09f0;
     inline uintptr_t EnableSocialSelfProfileViewExposureEvents = 0x5cc09f0;
     inline uintptr_t EnableSocialServiceIrisInviteV3 = 0x5cc09f0;
@@ -7732,6 +7739,7 @@ namespace FFlags
     inline uintptr_t EnableSquadPromptAnalytics = 0x5cc09f0;
     inline uintptr_t EnableSquadRTNPollingOptimizations = 0x5cc09f0;
     inline uintptr_t EnableSquadRegroupExperimentation1 = 0x5cc09f0;
+    inline uintptr_t EnableSquadRegroupExperimentationSmallScreenFix = 0x5cc09f0;
     inline uintptr_t EnableSquadTopBannerWideMode = 0x5cc09f0;
     inline uintptr_t EnableSquadUserCardHoverFix = 0x5cc09f0;
     inline uintptr_t EnableStabilityMilestoneReport2 = 0x5cc09f0;
@@ -8699,7 +8707,7 @@ namespace FFlags
     inline uintptr_t FixAutoSyncContacts = 0x5cc09f0;
     inline uintptr_t FixAvailableSpaceCleanup = 0x5cc09f0;
     inline uintptr_t FixAvatarTabPluginsNotLoadingOnNonEnglishBuilds = 0x5cc09f0;
-    inline uintptr_t FixAvatarUtilCharacter = 0x55e2e20;
+    inline uintptr_t FixAvatarUtilCharacter = 0x5cc09f0;
     inline uintptr_t FixBTIDState = 0x5cc09f0;
     inline uintptr_t FixBTIDStateTelemetry = 0x78a22f0;
     inline uintptr_t FixBacktraceUniqueID2 = 0x5cc09f0;
@@ -8923,6 +8931,7 @@ namespace FFlags
     inline uintptr_t FixHastefulDegenerateDetection = 0x79a80b8;
     inline uintptr_t FixHastefulEdgeCase = 0x79a7ce8;
     inline uintptr_t FixHeadSacleAdjustment = 0x5cc09f0;
+    inline uintptr_t FixHeadShapeColorSlider = 0x5cc09f0;
     inline uintptr_t FixHealthBarDirtyBit = 0x5cc09f0;
     inline uintptr_t FixHealthDesync = 0x5cc09f0;
     inline uintptr_t FixHeightmapThreadSafety = 0x7beff78;
@@ -9887,6 +9896,7 @@ namespace FFlags
     inline uintptr_t GImageWebPBiEndianLoad = 0x79b1748;
     inline uintptr_t GLES30EnableCBs2 = 0x5cc09f0;
     inline uintptr_t GLESUboBufferPaddingBytes = 0x6b34308;
+    inline uintptr_t GLTFExportR15JointsFromAvatarNotFMD = 0x5cc09f0;
     inline uintptr_t GainFocusEnterIsFalse = 0x5cc09f0;
     inline uintptr_t GalleryStopGap = 0x5cc09f0;
     inline uintptr_t GameBasicSettingsFramerateCap5 = 0x791a418;
@@ -11165,6 +11175,7 @@ namespace FFlags
     inline uintptr_t ImplicitGrantOnPublishAs3 = 0x5cc09f0;
     inline uintptr_t ImportFromFileWithRestPoseInAnimationEditor = 0x7913008;
     inline uintptr_t ImportMeshPivot = 0x5cc09f0;
+    inline uintptr_t ImportMoveJointTranslation = 0x5cc09f0;
     inline uintptr_t ImportQueueBetaFeature = 0x5cc09f0;
     inline uintptr_t ImportQueueBetaFeatureRolloutPercent = 0x5cc09f0;
     inline uintptr_t ImportQueueFixRibbonToggle = 0x5cc09f0;
@@ -11440,6 +11451,7 @@ namespace FFlags
     inline uintptr_t InternalExportCheckIfFacsControlsExists = 0x5cc09f0;
     inline uintptr_t InternalExportCheckIfFacsControlsExistsAgain = 0x5cc09f0;
     inline uintptr_t InternalExportClampCylinderSize = 0x5cc09f0;
+    inline uintptr_t InternalExportCleanGetJoint = 0x5cc09f0;
     inline uintptr_t InternalExportCustomRigFacsSupport = 0x5cc09f0;
     inline uintptr_t InternalExportDeduplicateCSG2 = 0x5cc09f0;
     inline uintptr_t InternalExportDeduplicateMorePrimitives = 0x5cc09f0;
@@ -12007,7 +12019,6 @@ namespace FFlags
     inline uintptr_t LogClientLoadToAvatarLoad = 0x7917d48;
     inline uintptr_t LogCrossExperienceEvents = 0x5cc09f0;
     inline uintptr_t LogCullMaxLogsToKeep = 0x6b307ac;
-    inline uintptr_t LogCullingAdditionalTelemetry = 0x5cc09f0;
     inline uintptr_t LogDbgInfoD3D11 = 0x5cc09f0;
     inline uintptr_t LogErrorMessageLRSend = 0x5cc09f0;
     inline uintptr_t LogErrorWhenNeckIsNotFound = 0x78d8418;
@@ -12535,6 +12546,7 @@ namespace FFlags
     inline uintptr_t LuaAppMaquettesDisableProductIdConversion = 0x5cc09f0;
     inline uintptr_t LuaAppMediaGalleryShimmer = 0x5cc09f0;
     inline uintptr_t LuaAppMemoizeHasInGameFriends = 0x5cc09f0;
+    inline uintptr_t LuaAppMigrateGameEventsTelemetryService = 0x5cc09f0;
     inline uintptr_t LuaAppMigrateGameTileActiveFriendsFix = 0x5cc09f0;
     inline uintptr_t LuaAppMigrateGameTileActiveFriendsHydrationFix = 0x5cc09f0;
     inline uintptr_t LuaAppMigrateGameTileActiveFriendsHydrationFix2 = 0x5cc09f0;
@@ -13736,7 +13748,6 @@ namespace FFlags
     inline uintptr_t MigrateLCMToComponentManagerHundredthPercent = 0x5cc09f0;
     inline uintptr_t MigrateMassPropertyFromPhysicalConfigData = 0x5cc09f0;
     inline uintptr_t MigrateNetworkingContacts = 0x5cc09f0;
-    inline uintptr_t MigrateNoFriendsViewToFoundation = 0x5cc09f0;
     inline uintptr_t MigratePackagesOffOfWWW = 0x5cc09f0;
     inline uintptr_t MigratePackagesOffOfWWWPart2 = 0x5cc09f0;
     inline uintptr_t MigratePackagesOffOfWWWPartThree = 0x5cc09f0;
@@ -13845,6 +13856,7 @@ namespace FFlags
     inline uintptr_t ModerationFilterTextUrlV2 = 0x6b64768;
     inline uintptr_t ModerationService = 0x6b63a20;
     inline uintptr_t ModerationServiceEnabledUniverseIds = 0x6b63a70;
+    inline uintptr_t ModerationServiceIgnoreTemporaryCaptures = 0x5cc09f0;
     inline uintptr_t ModerationServiceReviewableContentEventIncreasePollingRateAfterC = 0x5cc09f0;
     inline uintptr_t ModerationServiceReviewableContentEventLeaseMoreImmediately = 0x5cc09f0;
     inline uintptr_t ModerationServiceReviewableContentEventPollingAfterCreateWindowS = 0x6b1c498;
@@ -14304,6 +14316,7 @@ namespace FFlags
     inline uintptr_t NewReplicatorConnectionStartTime = 0x5cc09f0;
     inline uintptr_t NewRibbonIxpLayer = 0x6b58b50;
     inline uintptr_t NewRuntimeQuaternionToAAFix = 0x5cc09f0;
+    inline uintptr_t NewSavePlaceDialog3 = 0x5cc09f0;
     inline uintptr_t NewScriptContextStrictFacetAccessChecks = 0x5cc09f0;
     inline uintptr_t NewSettingsEndpointExceptionInfluxPermyriad = 0x7846714;
     inline uintptr_t NewStrengthInNumbersLua2 = 0x5cc09f0;
@@ -14783,6 +14796,7 @@ namespace FFlags
     inline uintptr_t ParentalControlsScreentimeLockoutPollIntervalMs = 0x5cc09f0;
     inline uintptr_t ParseAdditionalModelUploadErrorMessage = 0x793f8d8;
     inline uintptr_t ParseDepartureIntentAsEnum = 0x5cc09f0;
+    inline uintptr_t ParseHeadShapeFromAPIResponse6 = 0x5cc09f0;
     inline uintptr_t ParseRecCustomTags = 0x5cc09f0;
     inline uintptr_t ParseRecItemFromLib = 0x5cc09f0;
     inline uintptr_t ParserBasedSyntaxHighlighter3 = 0x5cc09f0;
@@ -15721,6 +15735,7 @@ namespace FFlags
     inline uintptr_t ProfilePlatformFixResaleLimitedPrice = 0x5cc09f0;
     inline uintptr_t ProfilePlatformFixWideModeUIv2 = 0x5cc09f0;
     inline uintptr_t ProfilePlatformHideEmptyDescription = 0x5cc09f0;
+    inline uintptr_t ProfilePlatformHideStoreIfNoAssets = 0x5cc09f0;
     inline uintptr_t ProfilePlatformHttpRetryCount = 0x5cc09f0;
     inline uintptr_t ProfilePlatformImproveGameDetailsAnalytics = 0x5cc09f0;
     inline uintptr_t ProfilePlatformImproveLoadingPage = 0x5cc09f0;
@@ -16245,6 +16260,7 @@ namespace FFlags
     inline uintptr_t RbxStorageFixEmptyPath = 0x5cc09f0;
     inline uintptr_t RbxStorageFixFCPath = 0x5cc09f0;
     inline uintptr_t RbxStorageFixSetNull = 0x5cc09f0;
+    inline uintptr_t RbxStorageFixStatsReporterNullCheck = 0x5cc09f0;
     inline uintptr_t RbxStorageForceROSBReadFile = 0x5cc09f0;
     inline uintptr_t RbxStorageHighCapacityThresholdGB = 0x6b2931c;
     inline uintptr_t RbxStorageImprovedFindAndRemoveOrphanedFiles = 0x5cc09f0;
@@ -16481,6 +16497,8 @@ namespace FFlags
     inline uintptr_t ReCacheIconsOnThemeChange = 0x5cc09f0;
     inline uintptr_t ReThrowGetCachedPatchException = 0x7983608;
     inline uintptr_t ReactCleanQueueOnUpdateBailout = 0x5cc09f0;
+    inline uintptr_t ReactDeletedTreeCleanUpLevel = 0x5cc09f0;
+    inline uintptr_t ReactEnableNewTreeCleanupPath = 0x5cc09f0;
     inline uintptr_t ReactEnableSchedulingProfiler = 0x5cc09f0;
     inline uintptr_t ReactInlineMergeLanes = 0x5cc09f0;
     inline uintptr_t ReactInstanceMapDisableErrorChecking = 0x5cc09f0;
@@ -16821,6 +16839,7 @@ namespace FFlags
     inline uintptr_t RemoveFriendsRenameInfoModal = 0x5cc09f0;
     inline uintptr_t RemoveFriendsRoduxAndNetworking = 0x5cc09f0;
     inline uintptr_t RemoveFriendspageFriendsCalls = 0x5cc09f0;
+    inline uintptr_t RemoveGameSettingsPermissionsPage2 = 0x5cc09f0;
     inline uintptr_t RemoveGamerCardFromSideBar = 0x5cc09f0;
     inline uintptr_t RemoveGcInterval = 0x5cc09f0;
     inline uintptr_t RemoveGetAABBSlow = 0x5cc09f0;
@@ -17065,6 +17084,7 @@ namespace FFlags
     inline uintptr_t RenderGpuTextureCompressor = 0x78be920;
     inline uintptr_t RenderGrassDensityMax = 0x6b19288;
     inline uintptr_t RenderGrassDensityMin = 0x6b19284;
+    inline uintptr_t RenderGrassUseBarycentricPlantingPoints = 0x5cc09f0;
     inline uintptr_t RenderHandle406ErrorCode = 0x5cc09f0;
     inline uintptr_t RenderHighlightManagerPrepare3 = 0x5cc09f0;
     inline uintptr_t RenderHighlightManagerPrepare4 = 0x5cc09f0;
@@ -17122,6 +17142,7 @@ namespace FFlags
     inline uintptr_t RenderOcclusionQueries2 = 0x5cc09f0;
     inline uintptr_t RenderOctreeFixRootToOutlierRepositioning = 0x5cc09f0;
     inline uintptr_t RenderOctreeFixRootToOutlierRepositioning2 = 0x7994a98;
+    inline uintptr_t RenderOctreeFixRootToOutlierRepositioning3 = 0x5cc09f0;
     inline uintptr_t RenderOrchestratorMeshUseContentStore4 = 0x78baca0;
     inline uintptr_t RenderPBRDecal3 = 0x7928a98;
     inline uintptr_t RenderParticlesSimulateNonVisible11 = 0x78be648;
@@ -18348,6 +18369,7 @@ namespace FFlags
     inline uintptr_t SduiEnableChips = 0x5cc09f0;
     inline uintptr_t SduiEnableHeroUnitBottomRow = 0x5cc09f0;
     inline uintptr_t SduiErrorHardening = 0x5cc09f0;
+    inline uintptr_t SduiExperienceDetailsSocialProof2 = 0x5cc09f0;
     inline uintptr_t SduiExperienceDetailsSocialProof3 = 0x5cc09f0;
     inline uintptr_t SduiFasterComponent = 0x5cc09f0;
     inline uintptr_t SduiFeedOptionalScrollingFrameFix4 = 0x5cc09f0;
@@ -18372,6 +18394,7 @@ namespace FFlags
     inline uintptr_t SduiImproveImpressionTag = 0x5cc09f0;
     inline uintptr_t SduiInputDataSignals4 = 0x5cc09f0;
     inline uintptr_t SduiInstrumentation = 0x5cc09f0;
+    inline uintptr_t SduiLazyNestedComponentArrayMapItemResolutionSupport = 0x5cc09f0;
     inline uintptr_t SduiLinkAction = 0x5cc09f0;
     inline uintptr_t SduiLoggerRemoveContext = 0x5cc09f0;
     inline uintptr_t SduiMarketplaceTryOn = 0x5cc09f0;
@@ -20063,6 +20086,7 @@ namespace FFlags
     inline uintptr_t StreamCenterJumpThresholdStuds = 0x6b18c3c;
     inline uintptr_t StreamCenterJumpTrackedRegionLimit = 0x6b18c38;
     inline uintptr_t StreamCenterPositionJumpThrottleHundrethPercentage = 0x6b18c30;
+    inline uintptr_t StreamDataItemMulti = 0x5cc09f0;
     inline uintptr_t StreamDataItemMulti2 = 0x5cc09f0;
     inline uintptr_t StreamDataItemPoolSize = 0x6b18d38;
     inline uintptr_t StreamDataItemPoolStatsThrottle = 0x7843388;
@@ -20250,6 +20274,7 @@ namespace FFlags
     inline uintptr_t StudioDeviceEmulatorGamepadEmulation3 = 0x5cc09f0;
     inline uintptr_t StudioDeviceEmulatorMacHighDpiSupport = 0x5cc09f0;
     inline uintptr_t StudioDeviceEmulatorVREmulation3 = 0x5cc09f0;
+    inline uintptr_t StudioDialogManager3 = 0x5cc09f0;
     inline uintptr_t StudioDisableMockGestureEvents = 0x792d828;
     inline uintptr_t StudioDoNotLoadCoreScriptsOutsidePlaySolo1 = 0x7917e78;
     inline uintptr_t StudioDoNotShowMoreThanOneSaveErrorDialog = 0x5cc09f0;
@@ -21920,6 +21945,7 @@ namespace FFlags
     inline uintptr_t UGCValidateMeshBBoxIsCentered = 0x5cc09f0;
     inline uintptr_t UGCValidateMeshBBoxMinSize = 0x5cc09f0;
     inline uintptr_t UGCValidateMeshInsideMesh = 0x5cc09f0;
+    inline uintptr_t UGCValidateMeshMaxScale = 0x5cc09f0;
     inline uintptr_t UGCValidateMeshMin2 = 0x5cc09f0;
     inline uintptr_t UGCValidateMeshTriangleAreaFacesFix = 0x7bed5b8;
     inline uintptr_t UGCValidateMeshTriangleAreaForCages = 0x5cc09f0;
@@ -22053,6 +22079,7 @@ namespace FFlags
     inline uintptr_t UGCValidateWaistAccessoryNormalMapTextureLimit = 0x6b198e4;
     inline uintptr_t UGCValidateWaistAccessoryRoughnessMapTextureLimit = 0x6b198e8;
     inline uintptr_t UGCValidateWrapLayersEnabled = 0x5cc09f0;
+    inline uintptr_t UGCValidationAddPBRToSharedData = 0x5cc09f0;
     inline uintptr_t UGCValidationAddThumbnailFrustumCheckingv2 = 0x5cc09f0;
     inline uintptr_t UGCValidationAdjustLegBounds = 0x5cc09f0;
     inline uintptr_t UGCValidationAnalytics = 0x5cc09f0;
@@ -22539,7 +22566,6 @@ namespace FFlags
     inline uintptr_t UseCoreSpatialQueryShapesForGC2 = 0x78ac460;
     inline uintptr_t UseCrashReportLogGroup = 0x5cc09f0;
     inline uintptr_t UseCrashpadDirectlyForAndroidHangMonitor = 0x5cc09f0;
-    inline uintptr_t UseCurrentDataModelLocales4 = 0x5cc09f0;
     inline uintptr_t UseCurrentDataModelLocales7 = 0x5cc09f0;
     inline uintptr_t UseCurrentDataModelLocales8 = 0x5cc09f0;
     inline uintptr_t UseCurrentDataModelLocales9 = 0x5cc09f0;
@@ -24558,7 +24584,7 @@ namespace FFlags
     inline uintptr_t XboxFlagRolloutCrashImprovement = 0x5cc09f0;
     inline uintptr_t XboxGameDetailsRefreshInterval = 0x6b1c36c;
     inline uintptr_t XboxGameSortsUpdateInterval = 0x6b1c370;
-    inline uintptr_t XboxGamerCardTelemetry = 0x55e2e20;
+    inline uintptr_t XboxGamerCardTelemetry = 0x5cc09f0;
     inline uintptr_t XboxImprovedCrashCollection = 0x5cc09f0;
     inline uintptr_t XboxInferredCrashMoreReporting = 0x5cc09f0;
     inline uintptr_t XboxInferredCrashReportOld = 0x5cc09f0;
