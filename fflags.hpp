@@ -4,7 +4,8 @@
 
 #pragma once
 
-namespace FFlags 
+namespace FFlags
+
 {
     inline uintptr_t ACEAnimationFromVideoCreatorServiceWithAssetImport = 0x7b787f8;
     inline uintptr_t ADFWeightBugFixes = 0x7b3ddc8;
